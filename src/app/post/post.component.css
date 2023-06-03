@@ -1,0 +1,13 @@
+.like-style{
+    background-color: white;
+    border: 0px solid white;
+    color: red;
+}
+
+.comment-style{
+    float: right;
+    color: white;
+    font-size: 14px;
+    background-color: white;
+    border: 0px solid white;
+}

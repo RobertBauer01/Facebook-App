@@ -63,7 +63,8 @@
               "browserTarget": "01_Angular_empty:build:production"
             },
             "development": {
-              "browserTarget": "01_Angular_empty:build:development"
+              "browserTarget": "01_Angular_empty:build:development",
+              "disableHostCheck": true
             }
           },
           "defaultConfiguration": "development"
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

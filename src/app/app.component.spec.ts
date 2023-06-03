@@ -5,9 +5,6 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule
-      ],
       declarations: [
         AppComponent
       ],
@@ -23,7 +20,7 @@ describe('AppComponent', () => {
   it(`should have as title '01_Angular_empty'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('01_Angular_empty');
+    expect(app.title).toEqual('facebook-site');
   });
 
   it('should render title', () => {
